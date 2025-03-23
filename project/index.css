@@ -1,0 +1,43 @@
+
+.container{
+    height: 300px;
+    width: 50%;
+    border:2px solid rgb(63, 60, 60);
+    display:grid;
+    position: relative;
+}
+
+.symbols{
+    display: flex;
+    gap: 5px;
+     margin: 5px;
+}
+
+.container>input{
+    padding-right: 3px;
+    border: 2px solid rgb(20, 20, 20);
+    margin: 5px;
+    text-align: end;
+    font-size: 15px;
+    
+}
+.evaluate{
+    background-color: rgb(242, 13, 70);
+    font-size: 20px;
+}
+.evaluate:hover{
+    background-color: rgb(228, 98, 98);
+    font-size: 20px;
+}
+.symbols>button{
+    width: 25%;}
+
+ .buttons{
+        background-color: rgb(246, 172, 62);
+        font-size: 15px;
+        box-shadow: 2px grey;
+    }
+    .buttons:hover{
+        background-color:blanchedalmond;
+    }
+   

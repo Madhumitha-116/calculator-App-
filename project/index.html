@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <center>
+<div class="outerbox">
+    <div class="container">
+        <input type="text">
+
+        <div class="symbols">
+            <button class="buttons"   onclick="addvalue('%')">%</button >
+            <button class="buttons"  onclick="clearval()">C</button >
+            <button class="buttons" onclick="deleteval()" >DEL</button >
+            <button class="buttons" onclick="addvalue('/')" >/</button >
+        </div>
+        <div class="symbols">
+            <button class="buttons" onclick="addvalue('1')" >1</button >
+            <button class="buttons" onclick="addvalue('2')" >2</button >
+            <button class="buttons" onclick="addvalue('3')" >3</button >
+            <button class="buttons" onclick="addvalue('x')" >x</button >
+        </div>
+        <div class="symbols">
+            <button class="buttons" onclick="addvalue('4')" >4</button >
+            <button class="buttons" onclick="addvalue('5')" >5</button >
+            <button class="buttons" onclick="addvalue('6')" >6</button >
+            <button class="buttons" onclick="addvalue('+')" >+</button >
+        </div>
+        <div class="symbols">
+            <button class="buttons" onclick="addvalue('7')" >7</button >
+            <button class="buttons" onclick="addvalue('8')" >8</button >
+            <button class="buttons" onclick="addvalue('9')" >9</button >
+            <button class="buttons" onclick="addvalue('-')" >-</button >
+        </div>
+        <div class="symbols">
+            <button class="buttons" onclick="addvalue('00')" >00</button >
+            <button class="buttons" onclick="addvalue('0')" >0</button >
+            <button class="buttons" onclick="addvalue('.')" >.</button >
+            <button class="evaluate" onclick="evalval()">=</button >
+        </div>
+       
+        
+    </div>
+</center>
+    <script src="calci.js"></script>
+
+
+</body>
+
+</html>
